@@ -1,0 +1,36 @@
+*
+{
+    margin: 0px auto;
+}
+body
+{  
+    background-image: url(img/background.jpg);
+    background-color: #000000;
+    color: #aa9b9b;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 150%;
+    background-position: right, bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div.comment
+{
+    background-color: seashell;
+    opacity: 0.5;
+    color: #000000;
+}
+
+div.abstract
+{
+    background-color: seashell;
+    opacity: 0.5;
+    color: #000000;
+}
+
+b
+{
+    font-weight: bolder;
+    font-size: 180%;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Code_Packages</title>
+</head>
+<body>
+<a href="index.html">Back to Home Page</a>
+<ul>
+<h3>November, 2021</h3>
+<li id="2111.08717">
+<b>LEGWORK: A python package for computing the evolution and detectability of stellar-origin gravitational-wave sources with space-based detectors</b><br>
+Author: Wagg Tom, Breivik Katelyn, de Mink Selma E.<br>
+[<a href="http://arxiv.org/abs/2111.08717">abs,
+<a href="http://arxiv.org/pdf/2111.08717.pdf">pdf</a>]<br>
+<a onclick="showdiv('2111.08717','.comment')">[Comment]</a>
+<div class="comment" style="display:none;">
+To be updated!
+</div>
+<a onclick="showdiv('2111.08717','.abstract')">[Abstract]</a>
+<div class="abstract" style="display:none;">
+ We present LEGWORK (LISA Evolution and Gravitational Wave Orbit Kit), an
+open-source Python package for making predictions about stellar-origin
+gravitational wave sources and their detectability in LISA or other space-based
+gravitational wave detectors. LEGWORK can be used to evolve the orbits of
+sources due to gravitational wave emission, calculate gravitational wave
+strains (using post-Newtonian approximations), compute signal-to-noise ratios
+and visualise the results. It can be applied to a variety of potential sources,
+including binaries consisting of white dwarfs, neutron stars and black holes.
+Although we focus on double compact objects, in principle LEGWORK can be used
+for any system with a user-specified orbital evolution, such as those affected
+by a third object or gas drag. We optimised the package to make it efficient
+for use in population studies which can contain tens-of-millions of sources.
+This paper describes the package and presents several potential use cases. We
+explain in detail the derivations of the expressions behind the package as well
+as identify and clarify some discrepancies currently present in the literature.
+We hope that LEGWORK will enable and accelerate future studies triggered by the
+rapidly growing interest in gravitational wave sources.
+</div>
+</li>
+</ul>
+<script>
+function showdiv(arxiv_id,class_name)
+{
+    var showing = document.getElementById(arxiv_id).querySelectorAll(class_name);
+    for (i=0;i<showing.length;i++)
+    {
+        if (showing[i].style.display === "none")
+        {
+            showing[i].style.display = "block";
+        }
+        else
+        {
+            showing[i].style.display = "none";
+        }
+    }
+}
+</script>
+</html>

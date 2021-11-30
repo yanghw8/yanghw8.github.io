@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Neutrino_Physcis</title>
+</head>
+<body>
+<a href="index.html">Back to Home Page</a>
+<ul>
+<h3>June, 2021</h3>
+<li id="2106.05913">
+<b>Sterile Neutrinos</b><br>
+Author: Dasgupta Basudeb, Kopp Joachim<br>
+[<a href="http://arxiv.org/abs/2106.05913">abs,
+<a href="http://arxiv.org/pdf/2106.05913.pdf">pdf</a>]<br>
+<a onclick="showdiv('2106.05913','.comment')">[Comment]</a>
+<div class="comment" style="display:none;">
+To be updated!
+</div>
+<a onclick="showdiv('2106.05913','.abstract')">[Abstract]</a>
+<div class="abstract" style="display:none;">
+ Neutrinos, being the only fermions in the Standard Model of Particle Physics
+that do not possess electromagnetic or color charges, have the unique
+opportunity to communicate with fermions outside the Standard Model through
+mass mixing. Such Standard Model-singlet fermions are generally referred to as
+&quot;sterile neutrinos''. In this review article, we discuss the theoretical and
+experimental motivation for sterile neutrinos, as well as their
+phenomenological consequences. With the benefit of hindsight in 2020, we point
+out potentially viable and interesting ideas. We focus in particular on sterile
+neutrinos that are light enough to participate in neutrino oscillations, but we
+also comment on the benefits of introducing heavier sterile states. We discuss
+the phenomenology of eV-scale sterile neutrinos in terrestrial experiments and
+in cosmology, we survey the global data, and we highlight various intriguing
+anomalies. We also expose the severe tension that exists between different data
+sets and prevents a consistent interpretation of the global data in at least
+the simplest sterile neutrino models. We discuss non-minimal scenarios that may
+alleviate some of this tension. We briefly review the status of keV-scale
+sterile neutrinos as dark matter and the possibility of explaining the
+matter-antimatter asymmetry of the Universe through leptogenesis driven by yet
+heavier sterile neutrinos.
+</div>
+</li>
+</ul>
+<script>
+function showdiv(arxiv_id,class_name)
+{
+    var showing = document.getElementById(arxiv_id).querySelectorAll(class_name);
+    for (i=0;i<showing.length;i++)
+    {
+        if (showing[i].style.display === "none")
+        {
+            showing[i].style.display = "block";
+        }
+        else
+        {
+            showing[i].style.display = "none";
+        }
+    }
+}
+</script>
+</html>
