@@ -1,0 +1,32 @@
+title: Yang He-Wen
+author:
+  name: yanghw8
+  email: yanghewen8@gmail.com
+description: > # this means to ignore newlines until "show_excerpts:"
+
+show_excerpts: false # set to true to show excerpts on the homepage
+copyright: All Rights Reserved.
+
+# Minima date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %-d, %Y"
+
+  # generate social links in footer
+  social_links:
+    github: yanghw8
+    stackoverflow: "18386370"
+
+header_pages:
+ - blog.md
+ - research.md
+ - interest.md
+ - code.md
+ - about.md
+ 
+# Build settings
+theme: minima
+
+markdown: redcarpet
+redcarpet:
+    extensions: [with_toc_data]
